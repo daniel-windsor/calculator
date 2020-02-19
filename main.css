@@ -38,6 +38,7 @@ p {
 .grid-item :hover {
   background-color: #C19E62;
   transition: all 200ms ease-out;
+  cursor: pointer;
 }
 
 #zero.grid-item {
@@ -49,6 +50,7 @@ p {
   border: 1px solid black;
   border-radius: 10px;
   padding: 20px;
+  min-height: 60px;
   text-align: right;
   background-color: #E4D3A6;
 }
