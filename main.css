@@ -37,7 +37,7 @@ p {
 
 .grid-item :hover {
   background-color: #C19E62;
-  transition: all 1000ms ease-out;
+  transition: all 200ms ease-out;
 }
 
 #zero.grid-item {
