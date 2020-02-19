@@ -22,7 +22,7 @@ function log(evt) {
       sanitise(keyPress)
       break;
     default:
-      if (keyPress.length < 15) {
+      if (keyPress.length < 14) {
         keyPress.push(key)
       }
   }
@@ -50,7 +50,6 @@ function sanitise(arr) {
         break;
       }
     }
-
   }
 
   let equation = arr.join('').replace("x", "*")
@@ -69,7 +68,6 @@ function solve(equation) {
 
   //round solution if needed
   if (solution.toString().length > 15) {
-    console.log("trigger")
     solution = solution.toPrecision(12)
   }
 
