@@ -9,7 +9,7 @@ for (let i = 0; i < elements.length; i++) {
 let keyPress = []
 
 function log(evt) {
-  let key = evt.toElement.innerText
+  let key = evt.target.innerHTML
 
   switch (key) {
     case "CE":
@@ -41,7 +41,6 @@ function sanitise(arr) {
     let regex = /[+\-*\/]/
 
     for (let i = index; i < arr.length; i++) {
-      console.log(i)
       if(regex.test(arr[i])) {
         arr.splice(i, 0, ")")
         break;
