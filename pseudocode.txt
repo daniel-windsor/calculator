@@ -1,0 +1,5 @@
+Create grid of buttons
+Style and make pretty
+attach listeners to each button, get value
+Do maffs
+display result
